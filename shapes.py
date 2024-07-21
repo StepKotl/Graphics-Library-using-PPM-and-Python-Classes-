@@ -1,6 +1,5 @@
 class shape:
-    def __init__(self, size : tuple, location : tuple, colour : list = [0,0,0]):
-        self.size = size
+    def __init__(self, location : tuple, colour : list = [0,0,0]):
         self.location = location
         self.coords = []
         self.colour = colour
@@ -29,11 +28,8 @@ class text(shape):
     def __init__(self, location : tuple, colour : list, text : str):
         self.text = text
         self.importLetters()
-
-        # Code doesn't function without this line for some reason :3 don't delete
-        size = 0
         
-        super().__init__(size, location, colour)
+        super().__init__(location, colour)
     
     def setCoordinates(self):
         distance = 0
@@ -55,9 +51,9 @@ class text(shape):
 
 
 class square(shape):
-    def __init__(self, size : tuple, location : tuple, colour : list, filled : bool = False):
+    def __init__(self, location : tuple, colour : list,  size : tuple, filled : bool = False):
         self.filled = filled
-        super().__init__(size, location, colour)
+        super().__init__(location, colour)
         
 
     def setCoordinates(self):
