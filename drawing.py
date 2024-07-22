@@ -11,10 +11,16 @@ class frame ():
         self.placementmat[point[1]][point[0]] = True
 
     def draw(self, shapes : list):
-        for figure in shapes:
-            for coord in figure.coords:
-                self.setToMat(coord, figure.colour)
+        bigImage = False
+        try:
+            for figure in shapes:
 
+                for coord in figure.coords:
+                    self.setToMat(coord, figure.colour)
+        except IndexError:
+            if not bigImage:
+                print("Image too big for frame")
+                bigImage = True
 
         settings = f"P3 \n{self.size[0]} {self.size[1]}\n255\n"
 
@@ -29,3 +35,6 @@ class frame ():
 
 
 
+if __name__ == "__main__":
+    import main
+    main
