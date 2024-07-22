@@ -18,7 +18,7 @@ for letterset in letterText[0:42]:
             extractedpointint.append(int(i))
         
         letterList.append(tuple(extractedpointint))
-    letterTuples.append(letterList)
+    letterTuples.appevnd(letterList)
 
 # change the values in the list 
 temp = []
