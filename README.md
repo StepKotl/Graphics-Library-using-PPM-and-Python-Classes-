@@ -6,6 +6,7 @@ This project was made to input University of Waterloo diploma requirements and o
 ## Some Example images (that I used to create my background for different devices):
 
 ![](Photos/background.png)
+![](Photos/Background-(720x1600).png)
 
 ---
 ## **This project is incomplete**
