@@ -3,7 +3,7 @@
 This project was made to input University of Waterloo diploma requirements and output a visual version of what was needed
 
 ---
-###**This project is incomplete**
+### **This project is incomplete**
 
 The following features are missing:
 - Circles don't have increasing border sizes
