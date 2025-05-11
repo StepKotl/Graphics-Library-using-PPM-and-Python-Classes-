@@ -1,6 +1,6 @@
 # Python Drawing using Classes
 
-This project was made to input University of Waterloo diploma requirements and output a visual version of what was needed
+This project was made to input University of Waterloo diploma requirements and output a visual version of what was needed into a PPM file
 
 ---
 ### **This project is incomplete**
