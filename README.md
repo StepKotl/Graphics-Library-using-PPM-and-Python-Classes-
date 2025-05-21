@@ -1,6 +1,6 @@
-# Python Drawing using Classes
+# Graphics Library using PPM and Python Classes
 
-This project was made to input University of Waterloo diploma requirements and output a visual version of what was needed into a PPM file
+This project was created with the goal to input University of Waterloo diploma requirements and output a visual version of what was needed into a PPM file
 
 ---
 ## Some Example images (that I used to create my background for different devices):
