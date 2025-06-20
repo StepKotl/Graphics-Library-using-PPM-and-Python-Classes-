@@ -1,6 +1,5 @@
 if __name__ == "__main__":
-    import main
-    main    
+    pass
 
 # ------------------------------------------- General Shape Class -------------------------------------------
 class shape:
@@ -59,7 +58,7 @@ class text(shape):
     def importLetters(self):
         import pickle
         
-        with open("letters.pkl", "rb") as picklefile:
+        with open("Pickle/letters.pkl", "rb") as picklefile:
             letters = pickle.load(picklefile)
 
         self.letters = letters

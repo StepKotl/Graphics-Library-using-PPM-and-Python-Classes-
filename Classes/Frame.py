@@ -1,4 +1,7 @@
-from shapes import shape
+if __name__ == "__main__":
+    pass
+
+from Shapes import shape
 
 class frame ():
     def __init__(self, size : tuple, background : list = [254, 254, 254]):
@@ -30,9 +33,3 @@ class frame ():
         with open("picture.ppm", "wb+") as colouringbook:
             colouringbook.write((settings + out).encode("ascii"))
 
-
-
-
-if __name__ == "__main__":
-    import main
-    main

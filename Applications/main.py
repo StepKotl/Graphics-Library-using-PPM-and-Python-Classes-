@@ -1,5 +1,5 @@
-from drawing import frame
-from shapes import square, text, circle
+from ..Classes.Frame import frame
+from ..Classes.Shapes import square, text, circle
 
 bigScale = 30
 smallScale = int(bigScale / 2)

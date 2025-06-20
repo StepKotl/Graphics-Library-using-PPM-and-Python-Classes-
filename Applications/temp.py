@@ -1,5 +1,5 @@
-from drawing import frame
-from shapes import *
+from ..Classes.Frame import frame
+from ..Classes.Shapes import *
 
 background = frame((1080, 1920), [245, 66, 191])
 
