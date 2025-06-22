@@ -1,7 +1,8 @@
 import os
 
-from ..Classes.Frame import frame
-from ..Classes.Shapes import square, text, circle
+from Classes import frame, Shapes
+from Classes.Shapes import square, text, circle
+from Classes.frame import Frame
 import math
 
 
@@ -9,7 +10,7 @@ import math
 scale = 17
 textSize = 35
 writtenText = "Step.Kotl"
-thing = frame((720, 1600), [0, 0, 0])
+thing = Frame((720, 1600), [0, 0, 0])
 
 # Create the larger text, centered using the defined constants
 Name = text((int(thing.size[0] / 2 - int((textSize * scale) / 2)), (int(thing.size[1] * 1/2) - int((5 * scale) / 2))), scale, [109, 204, 106], writtenText)

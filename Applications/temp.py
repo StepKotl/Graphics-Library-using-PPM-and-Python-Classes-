@@ -1,7 +1,7 @@
-from ..Classes.Frame import frame
+from ..Classes.frame import Frame
 from ..Classes.Shapes import *
 
-background = frame((1080, 1920), [245, 66, 191])
+background = Frame((1080, 1920), [245, 66, 191])
 
 objects = []
 

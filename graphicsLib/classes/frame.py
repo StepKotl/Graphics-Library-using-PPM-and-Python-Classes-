@@ -1,10 +1,10 @@
 if __name__ == "__main__":
     pass
 
-from Shapes import shape
+from shapes import shape
 import os
 
-class frame ():
+class Frame ():
     def __init__(self, size : tuple, background : list = [254, 254, 254], dir: str = os.getcwd()):
         self.size = size        
         self.colourmat = [[background for i in range(size[0])] for i in range(size[1])]

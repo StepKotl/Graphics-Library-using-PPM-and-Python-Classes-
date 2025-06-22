@@ -58,7 +58,7 @@ class text(shape):
     def importLetters(self):
         import pickle
         
-        with open("Pickle/letters.pkl", "rb") as picklefile:
+        with open("../pickle/letters.pkl", "rb") as picklefile:
             letters = pickle.load(picklefile)
 
         self.letters = letters

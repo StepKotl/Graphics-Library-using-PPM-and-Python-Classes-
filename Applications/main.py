@@ -1,11 +1,14 @@
-from ..Classes.Frame import frame
-from ..Classes.Shapes import square, text, circle
+
+from graphicsLib.classes.frame import Frame
+
+
+from graphicsLib.classes.shapes import square, text, circle
 
 bigScale = 30
 smallScale = int(bigScale / 2)
 textSize = 6
 writtenText = ":3"
-thing = frame((1920, 1080), [251, 219, 255])
+thing = Frame((1920, 1080), [251, 219, 255])
 
 bigFace = text((960 - int(textSize * bigScale), 540 - int((5 * bigScale) / 2)), bigScale, [226, 117, 250], writtenText)
 smallFace = text((960 + int(textSize * smallScale), 540 - int((5 * smallScale) / 2)), smallScale, [226, 117, 250], writtenText)
